@@ -1,4 +1,4 @@
-24414384621055892
+24418734624389143
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -78637,6 +78637,20 @@ THT DIP DIL PDIP 2.54mm 7.62mm 300mil Vishay HVMDIP HEXDIP
 0
 4
 3
+Package_DIP_Custom
+DIP-32_W_Left
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
+Package_DIP_Custom
+DIP-32_W_Right
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
 Package_DirectFET
 DirectFET_L4
 DirectFET L4 https://www.infineon.com/dgdl/Infineon-AN-1035-ApplicationNotes-v29_01-EN.pdf?fileId=5546d462533600a40153559159020f76#page=41
@@ -98594,10 +98608,17 @@ Varistor VF
 0
 2
 2
-Z88_Connector
-Z88_connector
+Z88
+Conn_Z88_1.25mm
 
 
 0
 74
 74
+Z88
+PinHeader_1x16_P2.54mm_Vertical
+Through hole straight pin header, 1x16, 2.54mm pitch, single row
+Through hole pin header THT 1x16 2.54mm single row
+0
+16
+16
