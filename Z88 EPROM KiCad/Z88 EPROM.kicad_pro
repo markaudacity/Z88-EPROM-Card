@@ -438,7 +438,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "XavSnap EPROM v1.5.kicad_pro",
+    "filename": "Z88 EPROM.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -765,7 +765,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "XavSnap EPROM v1.5.net",
+      "netlist": "Z88 EPROM.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
