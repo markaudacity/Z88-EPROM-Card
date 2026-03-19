@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "conn_z88")(type "Legacy")(uri "${KIPRJMOD}/conn_z88.lib")(options "")(descr ""))
   (lib (name "conn_z88b")(type "Legacy")(uri "${KIPRJMOD}/conn_z88b.lib")(options "")(descr ""))
-  (lib (name "nec_rom")(type "KiCad")(uri "${KIPRJMOD}/nec_rom.kicad_sym")(options "")(descr ""))
+  (lib (name "nec_rom")(type "Legacy")(uri "${KIPRJMOD}/nec_rom.lib")(options "")(descr ""))
 )

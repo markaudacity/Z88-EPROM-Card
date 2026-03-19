@@ -123,7 +123,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.025,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -460,7 +460,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Z88 EPROM.kicad_pro",
+    "filename": "Z88 EPROM Card simplified.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -482,6 +482,16 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 1.0,
+        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -595,7 +605,7 @@
         "pattern": "/ROE"
       },
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "/Vpp"
       },
       {
@@ -607,7 +617,7 @@
         "pattern": "/~{SE1}"
       },
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "GND"
       },
       {
@@ -779,7 +789,7 @@
         "pattern": "Net-(JP1-Pad3)"
       },
       {
-        "netclass": "Default",
+        "netclass": "Power",
         "pattern": "VCC"
       }
     ]
@@ -788,7 +798,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "Z88 EPROM.net",
+      "netlist": "Z88 EPROM Card simplified.net",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
